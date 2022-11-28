@@ -1,0 +1,73 @@
+body {
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; }
+  body main {
+    background-color: #14253d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 350px; }
+    body main .img-top {
+      margin: 20px;
+      width: 320px;
+      height: 320px;
+      border-radius: 12px;
+      background-image: url(../images/image-equilibrium.jpg);
+      background-position: center;
+      background-repeat: no-repeat; }
+      body main .img-top:hover {
+        background-image: url(../images/icon-view.svg);
+        cursor: pointer;
+        background-color: #00fff7;
+        opacity: 0.6; }
+    body main .conte {
+      margin-left: 15px; }
+      body main .conte h3 {
+        color: white;
+        font-weight: 600; }
+        body main .conte h3:hover {
+          cursor: pointer;
+          color: #00fff7; }
+      body main .conte p {
+        color: #8bacda;
+        font-size: 16px; }
+      body main .conte .price {
+        color: #00fff7;
+        font-size: 16px; }
+      body main .conte .days {
+        font-size: 16px;
+        color: #8bacda;
+        margin-left: 100px; }
+      body main .conte .line {
+        margin-top: 20px;
+        width: 320px;
+        height: 1px;
+        background-color: #8bacda;
+        border: 0; }
+    body main .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      padding: 10px;
+      margin-right: 110px; }
+    body main p {
+      color: white;
+      word-spacing: 3px;
+      font-weight: 300; }
+      body main p span {
+        color: #8bacda; }
+        body main p span:hover {
+          cursor: pointer;
+          color: #00fff7; }
+    body main .avatar {
+      border: 1px solid white;
+      width: 30px;
+      margin-right: 10px;
+      border-radius: 20px; }
